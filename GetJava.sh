@@ -1,6 +1,5 @@
-#!/bin/zsh
+#!/bin/sh
 # JDKURL="https://api.adoptium.net/v3/binary/version/jdk-17.0.1%2B12/linux/x64/jdk/hotspot/normal/eclipse?project=jdk";
-GetJavaRepo="https://example.com"
 
 if [ -d "Java" ]; then
   echo "Found Existing Java Install! Exiting Installer..."
@@ -10,20 +9,20 @@ if [ -d "Java" ]; then
 else
   echo -e "Java not found - Preparing download tasks"
 
-  if ! command -v node &>/dev/null; then
+  if ! command -v node; then
     echo -e "NodeJS could not be found\n  Please install NodeJS"
     exit
   fi
-  if ! command -v npm &>/dev/null; then
+  if ! command -v npm; then
     echo -e "NPM could not be found\n  Please install NodeJS & NPM"
     exit
   else
     packageManager="npm"
   fi
-  if command -v yarn &>/dev/null; then
+  if command -v yarn; then
     packageManager="yarn"
   fi
-  if command -v pnpm &>/dev/null; then
+  if command -v pnpm; then
     packageManager="pnpm"
   fi
   echo "Using PackageManager $packageManager to install modules..."
