@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/node': ^17.0.12
-  axios: ^0.25.0
+  axios: ^0.26.0
   tarball-extract: ^0.0.6
 
 dependencies:
-  axios: 0.25.0
+  axios: 0.26.0
   tarball-extract: 0.0.6
 
 devDependencies:
@@ -18,10 +18,10 @@ packages:
     resolution: {integrity: sha512-4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==}
     dev: true
 
-  /axios/0.25.0:
-    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
+  /axios/0.26.0:
+    resolution: {integrity: sha512-lKoGLMYtHvFrPVt3r+RBMp9nh34N0M8zEfCWqdWZx6phynIEhQqAdydpyBAAG211zlhX9Rgu08cOamy6XjE5Og==}
     dependencies:
-      follow-redirects: 1.14.7
+      follow-redirects: 1.14.8
     transitivePeerDependencies:
       - debug
     dev: false
@@ -48,8 +48,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: false
 
-  /follow-redirects/1.14.7:
-    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
+  /follow-redirects/1.14.8:
+    resolution: {integrity: sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
