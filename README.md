@@ -1,3 +1,6 @@
+<!--
+Credts: https://github.com/Cipher-GF (i think?)
+-->
 <p align="center">
 	<img width="40" src="https://github.githubassets.com/images/mona-loading-default.gif">
 <p align="center"><strong>We didn't receive a proper request from your browser.</strong></p>
